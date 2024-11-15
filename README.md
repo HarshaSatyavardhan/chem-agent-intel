@@ -1,6 +1,6 @@
 # Molecule Design Assistant 
 
-![Main](images/Screenshot 2024-11-15 at 10.58.40 PM.png)
+![Main](images/main.png)
 
 
 - The **Project** folder contains the app code where the agents and tools are not openvino optimizer 
@@ -45,9 +45,9 @@ then run streamlit app using the command
 
 ## showing the usage of the Intel openvino and AMX
 
-![Main](images/Screenshot 2024-11-15 at 11.33.52 PM.png)
-![Main](images/Screenshot 2024-11-15 at 11.32.50 PM.png)
-![Main](images/Screenshot 2024-11-15 at 10.27.55 PM.png)
+![Main](images/slides.png)
+![Main](images/openvino.png)
+![Main](images/amx.png)
 
 
 
