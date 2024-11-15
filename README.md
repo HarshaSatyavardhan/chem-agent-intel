@@ -50,4 +50,7 @@ then run streamlit app using the command
 ![Main](images/amx.png)
 
 
+- Benchmarks comapring the inference speed once optimized using openvino and without it is shown in this `inference_speed_openvino.ipynb` notebook and benchmarked 
+
+- In `run.ipynb` notebook solubility prediction tool is implemented and show a way to use ngrok to host the streamlit into a temporary domain need to add your own 
 
