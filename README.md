@@ -4,6 +4,7 @@
 
 
 > [Disclaimer]
+
 > The **Project** folder contains the same app code where the agents and tools are not openvino optimized
 
 - tools folder contains code 
