@@ -1,0 +1,20 @@
+pip install virtualenv
+
+virtualenv -p python3.10 intel
+
+
+virtualenv intel   
+source intel/bin/activate
+pip install transformers 
+pip install -U langchain-community
+pip install rdkit-pypi 
+pip install gradio
+pip install langchain 
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+pip install sentencepiece
+pip install -U langchain-community
+pip install streamlit-shadcn-ui
+pip install openvino-dev optimum-intel
+pip install optimum[openvino,nncf] torchvision evaluate
+
+source ~/.bashrc
