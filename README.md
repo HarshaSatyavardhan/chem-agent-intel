@@ -61,6 +61,35 @@ then run streamlit app using the command
 - In `run.ipynb` notebook solubility prediction tool is implemented and show a way to use ngrok to host the streamlit into a temporary domain need to add your own 
 
 
+## Prompts for testing the app
+
+```
+Prompt 1:
+
+Generate a molecule for this description and visualize the molecule : The molecule is a monomethoxybenzene that is 2-methoxyphenol substituted by a hydroxymethyl group at position 4. It has a role as a plant metabolite. It is a member of guaiacols and a member of benzyl alcohols.
+
+
+Prompt 2: 
+
+{generated molecule}
+[N][#C][C][C][C@@H1][C][C][C][C][C][C][C][C][C][C][Ring1][N][=O] optimize this molecule
+
+Prompt 3:
+
+COc1ccc(cc1C=O)O generate description for this molecule 
+
+Prompt 4:
+
+As a Chemistry Expert, generate the similarity map of both the molecules get the similarity map of both the molecules: O=C(O)C[C@H](O)C[C@H](O)CCn2c(c(c(c2c1ccc(F)cc1)c3ccccc3)C(=O)Nc4ccccc4)C(C)C and  OC(=O)C[C@H](O)C[C@H](O)\C=C\c1c(C(C)C)nc(N(C)S(=O)(=O)C)nc1c2ccc(F)cc2
+
+
+Prompt 5:
+
+generate the similarity map of both the molecules get the similarity map of both the molecules: O=C(O)C[C@H](O)C[C@H](O)CCn2c(c(c(c2c1ccc(F)cc1)c3ccccc3)C(=O)Nc4ccccc4)C(C)C and  OC(=O)C[C@H](O)C[C@H](O)\C=C\c1c(C(C)C)nc(N(C)S(=O)(=O)C)nc1c2ccc(F)cc2
+
+```
+
+
 
 ## Using CrewAI for multi agent conversation in this project 
 ![crew](images/crew.png)
